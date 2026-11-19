@@ -62,7 +62,7 @@ function selectMeal(m){
  const c=$('selectedMeal');c.classList.remove('hidden');c.replaceChildren();
  const h=document.createElement('h3');h.textContent='✓ Elegiste: '+m.name;
  const p=document.createElement('p');p.textContent='Te llevaremos a WhatsApp para consultar disponibilidad y realizar tu pedido. Indica el nombre de este bowl en tu mensaje.';
- const a=document.createElement('a');a.href='https://w.app/yed5dl';a.target='_blank';a.rel='noopener noreferrer';a.textContent='Abrir WhatsApp para pedir';a.className='wa-link';
+ const a=document.createElement('a');a.href='https://wa.me/51902440042';a.target='_blank';a.rel='noopener noreferrer';a.textContent='Abrir WhatsApp para pedir';a.className='wa-link';
  c.append(h,p,a);
  window.open('https://w.app/yed5dl','_blank','noopener,noreferrer');
 }
